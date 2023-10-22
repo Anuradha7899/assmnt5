@@ -1,0 +1,228 @@
+body{
+    background-color: hwb(56 40% 5%);
+}
+
+h1{
+    text-align: center;
+ }
+ 
+ .main1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+  }  
+  .card1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 400px;
+    background-color: rgb(10, 132, 208);
+    animation-name: card1;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes card1 {
+    100% {
+      transform: skewX(15deg);
+    }
+    50% {
+      transform: skewY(-5deg);
+    }
+  }
+  .card2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(10, 132, 208);
+    animation-name: card1;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes card1 {
+    50% {
+      transform: skewY(10deg);
+    }
+    50% {
+      transform: skewX(10deg);
+    }
+  }
+  .card3 {
+    width: 100px;
+    height: 100px;
+    margin-right: 250px;
+    background-color: rgb(10, 132, 208);
+    animation-name: card1;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes card1 {
+    100% {
+      transform: skewX(10deg);
+    }
+    50% {
+      transform: skewY(-10deg);
+    }
+  }
+  .main2{
+    display: flex;
+    justify-content: space-around;
+  }
+  .card4{
+    height: 100px;
+    width: 100px;
+    margin-left: 350px;
+    background-color: chartreuse;
+    animation-name: card4;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+  }
+  @keyframes card4{
+    100%{
+        transform: skew(20deg);
+    }
+    50%{
+        transform: skew(-30deg);
+    }
+  }
+  .card5{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    animation-name: card4;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+  }
+  @keyframes card4{
+    100%{
+        transform: skew(20deg);
+    }
+    50%{
+        transform: skew(-30deg);
+    }
+  }
+  .card6{
+    height: 100px;
+    width: 100px;
+    margin-right: 250px;
+    background-color: chartreuse;
+    animation-name: card4;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+  }
+  @keyframes card4{
+    100%{
+        transform: skew(20deg);
+    }
+    50%{
+        transform: skew(-30deg);
+    }
+  }
+  .main3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  .card7{
+    height: 100px;
+    width: 100px;
+    margin-left: 350px;
+    background-color: #7c095b;
+    animation-name: card5;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes card5{
+    100%{
+        transform: rotate(360deg);
+    }
+  }
+  .card8{
+    height: 100px;
+    width: 100px;
+    background-color: #7c095b;
+    animation-name: card5;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes card5{
+    100%{
+        transform: rotate(360deg);
+    }
+  }
+  .card9{
+    height: 100px;
+    width: 100px;
+    margin-right: 250px;
+    background-color: #7c095b;
+    animation-name: card5;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes card5{
+    100%{
+        transform: rotate(360deg);
+    }
+  }
+  .main4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  .card10{
+    height: 100px;
+    width: 100px;
+    margin-left: 350px;
+    background-color: burlywood;
+    animation-name: card6;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes card6{
+    100%{
+        transform: scaleY(0.6);
+    }
+  }
+  .card11{
+    height: 100px;
+    width: 100px;
+    background-color: hsl(352, 87%, 24%);
+    animation-name: card7;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes card7{
+    100%{
+        transform: scaleX(0.4);
+    }
+  }
+  .card12{
+    height: 100px;
+    width: 100px;
+    margin-right: 250px;
+    background-color: hwb(155 44% 27%);
+    animation-name: card8;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes card8{
+    100%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+  }

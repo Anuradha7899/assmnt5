@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    background-color: burlywood;
+}
+ #Main{
+margin-left: 500px;
+}
+.main1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition: 3s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+  }
+  .main1:hover{
+    background-color: brown;
+   
+    width: 300px;
+  }
+  .main2{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition: 3s;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 3s;
+  }
+  .main2:hover{
+    background-color: brown;
+   height: 300px;
+    width: 300px;
+  }
+  .main3{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition: 3s;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+  }
+  .main3:hover{
+    background-color: brown;
+   
+    width: 300px;}
+    .main4{
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        transition: 3s;
+        transition-duration: 3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 2s;
+      }
+      .main4:hover{
+        background-color: brown;
+       
+        width: 300px;}
+        .main5{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            transition: 3s;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s;
+          }
+          .main5:hover{
+            background-color: brown;
+           
+            width: 300px;}
+            .main6{
+                height: 100px;
+                width: 100px;
+                background-color: aqua;
+                transition: 3s;
+                transition-duration: 3s;
+                transition-timing-function: ease;
+                transition-delay: 2s;
+              }
+              .main6:hover{
+                background-color: brown;
+               
+                width: 300px;}
